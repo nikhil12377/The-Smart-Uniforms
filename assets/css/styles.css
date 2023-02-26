@@ -758,6 +758,16 @@ body.dark-theme {
   row-gap: 0.75rem;
 }
 
+.contact__btn {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact__btn button {
+  border-radius: 8px;
+}
+
 .contactus__input {
   border: none;
   outline: none;
@@ -1108,9 +1118,6 @@ body.dark-theme {
     text-align: initial;
     column-gap: 2rem;
     padding: 4.5rem;
-  }
-  .contactus__subscribe {
-    flex-direction: row;
   }
   .contactus__input {
     width: 100%;

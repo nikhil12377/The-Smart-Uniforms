@@ -23,14 +23,14 @@
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="assets/css/styles.css" />
 
-    <title>Responsive watches website - Bedimcode</title>
+    <title>The Smart Uniforms</title>
   </head>
   <body>
     <!--==================== HEADER ====================-->
     <header class="header" id="header">
       <nav class="nav container">
         <a href="#" class="nav__logo">
-          <i class="bx bxs-watch nav__logo-icon"></i> Rolex
+          <!-- LOGO -->
         </a>
 
         <div class="nav__menu" id="nav-menu">
@@ -46,6 +46,9 @@
             </li>
             <li class="nav__item">
               <a href="#new" class="nav__link">New</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact Us</a>
             </li>
           </ul>
 
@@ -185,7 +188,9 @@
                 PRODUCTS
               </a>
 
-              <button class="button home__button">CONTACT US</button>
+              <a href="#contact" class="button button--darkgray button--medium">
+                CONTACT US</a
+              >
             </div>
           </div>
         </div>
@@ -198,18 +203,14 @@
         <div class="featured__container grid">
           <article class="featured__card">
             <img
-              src="assets/imgg/school_uniform.jpg"
+              src="assets/imgg/embroidary.jpg"
               alt=""
               class="featured__img"
             />
           </article>
 
           <article class="featured__card">
-            <img
-              src="assets/imgg/medical_uniform.jpg"
-              alt=""
-              class="featured__img"
-            />
+            <img src="assets/imgg/t-shirts.jpg" alt="" class="featured__img" />
           </article>
 
           <article class="featured__card">
@@ -401,7 +402,7 @@
       </section>
 
       <!--==================== CONTACTUS ====================-->
-      <section class="contactus section container">
+      <section class="contactus section container" id="contact">
         <div class="contactus__bg">
           <h2 class="contactus__title">CONTACT US</h2>
 
@@ -417,7 +418,9 @@
               class="contactus__input"
             />
           </form>
-          <button class="button">CONTACT</button>
+          <div class="contact__btn">
+            <button class="button">CONTACT</button>
+          </div>
         </div>
       </section>
     </main>
@@ -429,12 +432,10 @@
           <h3 class="footer__title">Our information</h3>
 
           <ul class="footer__list">
-            <li>1234 - Peru</li>
-            <li>La Libertad 43210</li>
-            <li>123-456-789</li>
+            <li>+918080332150</li>
           </ul>
         </div>
-        <div class="footer__content">
+        <!-- <div class="footer__content">
           <h3 class="footer__title">About Us</h3>
 
           <ul class="footer__links">
@@ -451,23 +452,23 @@
               <a href="#" class="footer__link">Copy Right</a>
             </li>
           </ul>
-        </div>
+        </div> -->
 
         <div class="footer__content">
           <h3 class="footer__title">Product</h3>
 
           <ul class="footer__links">
             <li>
-              <a href="#" class="footer__link">Road bikes</a>
+              <a class="footer__link">Customized T-Shirts</a>
             </li>
             <li>
-              <a href="#" class="footer__link">Mountain bikes</a>
+              <a class="footer__link">Uniforms</a>
             </li>
             <li>
-              <a href="#" class="footer__link">Electric</a>
+              <a class="footer__link">Jackets</a>
             </li>
             <li>
-              <a href="#" class="footer__link">Accesories</a>
+              <a class="footer__link">Customized Embroidary</a>
             </li>
           </ul>
         </div>
@@ -477,7 +478,7 @@
 
           <ul class="footer__social">
             <a
-              href="https://www.facebook.com/"
+              href="https://www.facebook.com/people/the_smart_uniforms/100090597394445/"
               target="_blank"
               class="footer__social-link"
             >
@@ -485,15 +486,7 @@
             </a>
 
             <a
-              href="https://twitter.com/"
-              target="_blank"
-              class="footer__social-link"
-            >
-              <i class="bx bxl-twitter"></i>
-            </a>
-
-            <a
-              href="https://www.instagram.com/"
+              href="https://www.instagram.com/the_smart_uniforms/"
               target="_blank"
               class="footer__social-link"
             >
@@ -502,8 +495,6 @@
           </ul>
         </div>
       </div>
-
-      <span class="footer__copy">&#169; Bedimcode. All rigths reserved</span>
     </footer>
 
     <!--=============== SCROLL UP ===============-->
